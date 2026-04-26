@@ -1,10 +1,16 @@
 # data files
 data/
 
-# virtual environment
+# virtual environments
 venv/
+.venv/
+.env/
 
 # python cache
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
+*.pyo
+*.pyd
+
+# notebooks
+.ipynb_checkpoints/
