@@ -2,7 +2,9 @@ name: Python CI
 
 on:
   push:
+    branches: [main, setup-task, eda-ethiopia]
   pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -22,3 +24,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run tests
+        run: pytest
