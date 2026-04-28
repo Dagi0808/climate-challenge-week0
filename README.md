@@ -1,3 +1,7 @@
+## CI Workflow
+
+GitHub Actions runs automated checks on push and pull requests.
+
 ## Branch Strategy
 
 This project follows a task-based Git workflow:
